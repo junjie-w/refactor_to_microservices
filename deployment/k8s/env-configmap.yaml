@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET: test-376262390406-dev
+  AWS_BUCKET: jw-139779971562-dev
   AWS_PROFILE: default
   AWS_REGION: us-east-1
-  POSTGRES_USERNAME: chirperadmin
-  POSTGRES_PASSWORD: postgres
-  POSTGRES_HOST: wyr.cfjeibujcbd0.us-east-1.rds.amazonaws.com
-  POSTGRES_DB: chirperdb
-  JWT_SECRET: hello
+  POSTGRES_USERNAME: junjie
+  POSTGRES_PASSWORD: Bauhaus_01
+  POSTGRES_HOST: jw.chmsx11y5ipe.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  JWT_SECRET: testing
   URL: http://localhost:8100
 metadata:
   name: env-config
