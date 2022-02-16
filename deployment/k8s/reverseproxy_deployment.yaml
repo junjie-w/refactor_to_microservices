@@ -15,8 +15,8 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: echobrook/reverseproxy:latest
-        name: reverseproxy
+      - image: echobrook/udagram-reverseproxy:latest
+        name: udagram-reverseproxy
         imagePullPolicy: Always          
         resources:
           requests:
