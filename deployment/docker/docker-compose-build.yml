@@ -18,4 +18,5 @@ services:
   udagram-frontend:
     build:
       context: ../../udagram-frontend  
+      dockerfile: Dockerfile
     image: echobrook/udagram-frontend
